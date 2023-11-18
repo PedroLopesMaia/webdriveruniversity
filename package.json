@@ -1,0 +1,20 @@
+{
+  "name": "cypress-estudo",
+  "version": "1.0.0",
+  "description": "Cypress Cumcumber Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Pedro L",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.14.0",
+    "ts-loader": "^9.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
