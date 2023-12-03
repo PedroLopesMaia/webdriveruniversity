@@ -15,3 +15,4 @@ Feature: Webdriveruniverty - login Page
             | webdriver     | webdriver123 | validation succeeded |
             | usuarioerrado | webdriver123 | validation failed    |
             | webdriver     | senhaerrada  | validation failed    |
+            | usuarioerrado | senhaerrada  | validation failed    |
