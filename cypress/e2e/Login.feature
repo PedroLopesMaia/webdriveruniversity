@@ -1,3 +1,4 @@
+@login @regression
 Feature: Webdriveruniverty - login Page
 
     Background: Pre Conditions

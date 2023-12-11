@@ -1,3 +1,4 @@
+@contact-us @regression
 Feature: Webdriveruniverty - Contact Us Page
 
     Background: Pre Conditions
@@ -27,6 +28,7 @@ Feature: Webdriveruniverty - Contact Us Page
         And I click on the submit button
         Then I should be presented with a successful contact us submission message
 
+    @smoke
     Scenario Outline: Validate contact us page
         And I type a first name <firstname> and a last name '<lastname>'
         And I type a '<email>' and a '<comment>'
